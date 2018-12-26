@@ -1,0 +1,52 @@
+.form-inline > * {
+   margin:5px 20px;
+}
+.pos_right {
+    position: absolute;
+    right: 80px;
+}
+.pos_right2 {
+    position: absolute;
+    right: 10px;
+}
+.centred{
+   position: relative;
+   left: 50%;
+   margin-left: -100px;
+}
+.inlined_title{
+   display: inline-block;
+}
+
+.margin{
+   margin:5px 20px;
+}
+
+.pos_right3 {
+    position: absolute;
+    right: 50px;
+}
+
+.pos_right75 {
+    position: absolute;
+    right: 75px;
+}
+
+.pos_right130 {
+    position: absolute;
+    right: 130px;
+}
+
+.pos_right4 {
+    position: absolute;
+    right: 175px;
+}
+
+.pos_right5 {
+    position: absolute;
+    right: 200px;
+}
+.pos_left {
+    position: absolute;
+    left: 300px;
+}

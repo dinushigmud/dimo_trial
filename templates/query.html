@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block scripts %}
+<script type='text/babel' src="{{ url_for('static',filename='question.js') }}"></script>
+{% endblock %}
+
+{% block title %}
+QUERY
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1>Query: SENSOR ID</h1>
+        <ul class="list-group">
+          <table>
+            {% for key, value in result.items() %}
+               <tr>
+                    <th> {{ key }} </th>
+                    <td> {{ value }} </td>
+               </tr>
+            {% endfor %}
+            </table>            
+        </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
